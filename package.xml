@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>hycube+Hycube_OrderExporter</name>
+    <version>1.0.8</version>
+    <stability>stable</stability>
+    <license>OSL v3.0</license>
+    <channel>303cca3d2196f3828a1694cddf254544</channel>
+    <extends/>
+    <summary>Magento sales order import and export.</summary>
+    <description>Magento sales order import and export.</description>
+    <notes>This is stable version of this extension and has been tested on various version of community editions. In this particular version we are supporting it to run on PHP V 7.0.99</notes>
+    <authors><author><name>Rave Infosys</name><user>raveinfo</user><email>mage.support@hycube.com</email></author></authors>
+    <date>2018-01-31</date>
+    <time>07:10:01</time>
+    <contents><target name="magecommunity"><dir name="Hycube"><dir name="Exporter"><dir name="Block"><dir name="Adminhtml"><dir name="Exporter"><dir name="Edit"><file name="Form.php" hash="ccc786791505468916808beb9fdfecaa"/><dir name="Tab"><file name="Form.php" hash="50cae22b3271846df942f03d48cfd0e0"/></dir><file name="Tabs.php" hash="2ed59ec7ee43e0a065fadc4bae963058"/></dir><file name="Edit.php" hash="28d4ec38f9611ff7c5257ad4c17dfded"/><file name="Grid.php" hash="250bb8bd95b8aecf125de4b03d01a545"/></dir><file name="Exporter.php" hash="2ada7ac4ecae33575d56b51a35ace5e7"/></dir><file name="Exporter.php" hash="2b42136fb06a06b951ab3cc5f11584c7"/><dir name="Sales"><dir name="Order"><dir name="Form"><file name="Form.php" hash="c13310c8740685a6bcf53c24c93ad547"/></dir><file name="Items.php" hash="77eb624408dad93ba8a1a65fcd9f1f49"/></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="92cbe8a950bb8456c8f4f267db6bd6d2"/></dir><dir name="Model"><file name="Createorder.php" hash="98b385c4c260df9dbd8e2a8cf90770bc"/><file name="Exporter.php" hash="e983cd68cc186f65c29ebebc883cc810"/><file name="Exportorders.php" hash="ce627d6ea7b42e865c6865e1a106e634"/><file name="Importorders.php" hash="2a0ecdb3770efddb566dd838f2dd3cbd"/><dir name="Operations"><file name="Creditmemo.php" hash="08c263edf7c91f9e4a480469440a5d88"/><file name="Invoice.php" hash="ef9686f3d9421f5f6a9c7c3b39eb95b2"/><file name="Shipment.php" hash="8f54ce9d70189a0100363cf6f6ba722c"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="ExporterController.php" hash="8e5b0a1dde508d159bdc3c395374c23e"/><file name="ImporterController.php" hash="2531647e099538ba710def4094b15325"/></dir></dir><dir name="etc"><file name="config.xml" hash="9c732f0c0a364e72704b0d20e80d9432"/></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="exporter.xml" hash="632c8fb654b60ff52d03641eb0589756"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Hycube_Exporter.xml" hash="af376451e72fdac6ac3d8999d2d78c6c"/></dir></target><target name="mage"><dir name="var"><dir name="hycube"><dir name="exporter"><file name="order_exception_log.htm" hash="aa58e7a9f46530c3b77fca324a6598cc"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>7.0.99</max></php></required></dependencies>
+</package>

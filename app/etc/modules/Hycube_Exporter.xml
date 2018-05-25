@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Hycube_Exporter>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Hycube_Exporter>
+    </modules>
+</config> 
